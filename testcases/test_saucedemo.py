@@ -18,7 +18,6 @@ class Test_Saucedemo(Webelements):
         self.driver = setup
         self.lp = Sauce_Demo(self.driver)
         self.lp.login_saucedemo(url=self.baseURL, username=self.Uname1,password=self.Pword)
-        self.logger.info("********* Login success *******")
         app_logo = self.driver.title
         if app_logo == "Swag Labs":
             self.logger.info("********* TestCase-1 (test_success_login) Passed *******")
