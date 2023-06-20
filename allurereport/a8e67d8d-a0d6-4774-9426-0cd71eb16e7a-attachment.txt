@@ -1,0 +1,1 @@
+[32mINFO    [0m utilities.customlogger:test_saucedemo.py:42 ********* TestCase-2 (test_fail_login) Passed *******

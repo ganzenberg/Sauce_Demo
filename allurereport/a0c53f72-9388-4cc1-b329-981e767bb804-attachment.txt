@@ -1,0 +1,1 @@
+[32mINFO    [0m utilities.customlogger:test_saucedemo.py:61 ********* TestCase-3 (test_order_product) Passed *******
