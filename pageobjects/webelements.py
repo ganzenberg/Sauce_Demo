@@ -19,10 +19,8 @@ class Webelements:
     check_out_complete_xpath = "//h2[@class='complete-header']"
 
     # userdata
-    baseURL = "https://www.saucedemo.com/"
-    Uname1 = "standard_user"
-    Uname2 = "locked_out_user"
-    Pword = "secret_sauce"
+
+    act_logo = "//div[text()='Swag Labs']"
     act_error_msg = "Epic sadface: Sorry, this user has been locked out."
     value = 'Price (low to high)'
     fname = "John"
